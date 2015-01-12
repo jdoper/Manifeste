@@ -1,4 +1,5 @@
 // Função de teste (Pode ser deletada)
+/*
 function listar() {
 	$.ajax({
 		type: "POST",
@@ -18,6 +19,7 @@ function listar() {
 		console.log('OK');
 	});
 }
+*/
 
 
 // Requisição para recuperar ocorrências do usuário

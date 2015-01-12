@@ -8,28 +8,30 @@
 		<link rel="stylesheet" type="text/css" href="css/index.css">
 	</head>
 	<body>
-		<div class="header">
+		<div class="form">
 			<center>
-				<img src="img/logo.jpg" alt="Logo do x'sistema" height="75" width="75"/>
-				<p class="nome">Bem vindo, <strong>KKKK</strong></p>
+				<!-- Logo do sistema -->
+		    	<img src="img/logo.jpg" alt="Logo do sistema" height="90" width="90"/>
+
+				<!-- Formulário de login -->
+				<form onclick="login()">
+					<p>Email</p>
+					<div class="campos">
+					    <input type="email" name="email">
+					</div>
+					<p>Senha</p>
+					<div class="campos">
+					  	<input type="password" name="password">
+					</div>
+					<div class="botao">
+					  	<input type="submit" value="Entrar">
+					</div>
+				</form>
+
+				<!-- Botões de cadastro -->
+				<a href="main.html">Cadastre-se</a>
+				<a href="main.html">Login com Facebook</a>
 			</center>
-
-			<table class="menu">
-			  <tr>
-		      	<td><a href="index.html">Inicio</a></td>
-			    <td><a href="ocorrencias.html">Ocorrências</a></td>
-			    <td><a href="busca.html">Busca</a></td>
-			    <td><a href="config.html">Configurações</a></td>
-			    <td><a href="index.html">Sair</a></td>
-			  </tr>
-			</table>
-		</div>
-
-		<div class="body">
-			<center><h2>Lorem ipsum dolor sit amet</h2></center>
-			<p>
-				Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam et aliquet turpis, non laoreet diam. Vestibulum eu dui vel urna ullamcorper pharetra ac non ipsum. Morbi leo libero, viverra ut massa tincidunt, iaculis viverra enim. Quisque pulvinar dolor elit, a convallis mauris vulputate eu. Praesent non viverra diam, non ullamcorper nunc. Nunc in tellus velit. Sed est enim, viverra quis finibus ac, accumsan vulputate dui. Nulla id tellus in orci tincidunt pulvinar. Donec dignissim, turpis nec vulputate iaculis, dui ante sodales mauris, eu convallis turpis ligula quis velit.
-			</p>
 		</div>
 	</body>
 </html>

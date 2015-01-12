@@ -8,9 +8,8 @@ function initialize() {
         zoom: 12,
         mapTypeId: google.maps.MapTypeId.ROADMAP
     }
-    map = new google.maps.Map(mapCanvas, mapOptions)
+    map = new google.maps.Map(mapCanvas, mapOptions);
 }
-
 
 // Requisição para recuperar ocorrências do usuário
 
